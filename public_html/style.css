@@ -12,11 +12,42 @@ margin: 0 auto;
 width: 70%;
 clear: both;
 }
-
-.header {
-align-content: center;
+a{
+    text-decoration: none;
 }
-
+a:link,a:visited{
+    
+}
+a:hover,a:active{
+    
+}
+.mainheader img{
+    margin: 2% 0;
+    width: 25%;
+    height:auto;
+}
+.mainheader nav{
+    background-color: #666;
+    height:40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.mainheader ul{
+    list-style: none;
+    margin: 0 auto;
+}
+.mainheader ul li{
+    float: left;
+    display: inline;
+}
+.mainheader nav a:link, .mainheader nav a:visited{
+    padding: 10px 25px;
+    display:inline-block;
+    color:#FFF;
+}
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited
 .mainContent {
 
 }
