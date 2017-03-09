@@ -7,6 +7,7 @@ font-family: Arial,'lucida sans unicode';
 text-align: left;
 
 }
+
 .body {
 margin: 0 auto;
 width: 70%;
@@ -34,14 +35,22 @@ a:hover,a:active{
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
 }
+
+
 .mainheader ul{
     list-style: none;
     margin: 0 auto;
 }
+
 .mainheader ul li{
     float: left;
     display: inline;
 }
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
 .mainheader nav a:link, .mainheader nav a:visited{
     padding: 10px 25px;
     display:inline-block;
@@ -68,11 +77,38 @@ text-shadow:none;
     -webkit-border-radius: 5px;
     
 }
+.dropdown-content{
+      border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: none;
+    
+    position: absolute;
+    width:100%;
+}
+
+.dropdown-content:hover{
+   display:block;
+     background-color: grey;
+}
+.dropdown-content a{
+    text-decoration: none;
+    text-align: left;
+    display: none;
+   
+}
+.dropdown:hover .dropdown-content{
+    background-color: grey;
+    display: block;
+    
+     
+    
+}
 
 .content {
     width: 70%;
     float:left;
-border-radius: 5px;
+    border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
 }
@@ -104,18 +140,19 @@ border-radius: 5px;
 .topSlider{
     margin-top: 2%;
     float:left;
-    width:21%;
+    width:23%;
     background-color: #FFF;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     margin-left: 3%;
     padding :3% 2%;
-    margin-bottom: 2%
+    margin-bottom: 2%;
+  
 }
 .bottomSlider{
     float:left;
-    width:21%;
+    width:23%;
     background-color: #FFF;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -142,6 +179,9 @@ border-radius: 5px;
     float: left;
     width: 100%;
     margin: 2% 0;
+}
+.mainFotter a{
+    margin-left: 15px;
 }
 @media only screen and (min-width: 150px ) and (max-width:600px){
     .body{
