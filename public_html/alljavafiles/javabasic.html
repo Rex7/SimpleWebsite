@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--
+
+    Rex
+-->
+<html>
+    <head>
+        <title>java basic tutorial</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="javahome.css">
+         <script language="JavaScript">
+            function url2div(url,target){
+                document.getElementById(target).innerHTML = '<iframe style="width:100%;height:100%;" frameborder="0" src="' + url + '" />';
+            }   
+        </script>
+        
+    </head>
+    <body>
+        <header class="mainheader">
+            <img src="download.jpg">
+            <nav>
+                <ul>
+                    <li><a href="\SimpleWebsite\index.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Categories   <span class='fa fa-angle-down'></span></a>
+                        <div class="dropdown-content">
+                            <a href="#">c++</a>
+                            <a href="\SimpleWebsite\alljavafiles\javabasic.html">java</a>
+                            <a href="#">python</a>
+                            
+                            
+                        </div>
+                    </li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="leftbody">
+              <nav>
+                        <ul>
+                            <li><h3>Java Basic</h3></li>
+                              <li><a href="#" onclick="url2div('basicdata.html','rightbody')">datatypes</a></li>
+                            <li>operator</li>
+                            <li>loops</li>
+                            <li>conditional statement</li>
+                            <li><h3>Java Advance</h3></li>
+                            <li>classes & object</li>
+                            <li>Inheritance</li>
+                            <li>Polymorphism</li>
+                            <li>MultiThreading</li>
+                            <li>Reflection</li>
+
+                        </ul>
+                    </nav>
+        </div>
+          <div id="rightbody">
+             <H3> Java</H3>
+                   
+                  
+                    <p>
+                        Java programming language was originally developed by Sun Microsystems which was initiated by James Gosling and released in 1995 as core component of Sun Microsystems' Java platform (Java 1.0 [J2SE]).
+The latest release of the Java Standard Edition is Java SE 8. Multiple configurations were built to suit various types of platforms. For example: J2EE for Enterprise Applications, J2ME for Mobile Applications.
+The new J2 versions were renamed as Java SE, Java EE, and Java ME respectively. Java is guaranteed to be Write Once, Run Anywhere.<br>
+Java is −<br>
+<b>•	Object Oriented </b>− In Java, everything is an Object. Java can be easily extended since it is based on the Object model.<br>
+                    <b>  •	Platform Independent</b> − Unlike many other programming languages including C and C++, when Java is compiled, it is not compiled into platform specific machine, rather into platform independent byte code. 
+                    This byte code is distributed over the web and interpreted by the Virtual Machine (JVM) on whichever platform it is being run on.<br>
+                    <b>•	Secure </b>− With Java's secure feature it enables to develop virus-free, tamper-free systems. Authentication techniques are based on public-key encryption.<br>
+                    <b>•	Architecture-neutral </b>− Java compiler generates an architecture-neutral object file format, which makes the compiled code executable on many processors, with the presence of Java runtime system.<br>
+                    <b> •	Robust</b> − Java makes an effort to eliminate error prone situations by emphasizing mainly on compile time error checking and runtime checking.<br>
+                    <b>•	Multithreaded</b> − With Java's multithreaded feature it is possible to write programs that can perform many tasks simultaneously. This design feature allows the developers to construct interactive applications that can run smoothly.<br>
+                    <b>•	Interpreted </b>− Java byte code is translated on the fly to native machine instructions and is not stored anywhere. The development process is more rapid and analytical since the linking is an incremental and light-weight process.<br>
+                    <b>•	High Performance </b>− With the use of Just-In-Time compilers, Java enables.<br>
+                    <pre class="pretext">
+                        package com.regis.programs;
+                        public class HelloDemo{
+                            public static void main(String [] args){
+                                System.out.println("Hello World");
+                                }
+                              }
+                    </pre>
+                    </p>
+        </div>
+        <footer class="mainFotter">
+            <p> Copyright &copy; 2016<a  href="index.html">http://rex7.890m.com</a></p>
+        </footer>
+    </body>
+</html>

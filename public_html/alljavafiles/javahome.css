@@ -1,0 +1,136 @@
+
+body{
+ color:#000305;
+
+font-size: 87.5%;
+font-family: Arial,'lucida sans unicode';
+text-align: left;
+
+}
+
+a{
+    text-decoration: none;
+}
+a:link,a:visited{
+    color:#CF5C3F;
+}
+a:hover,a:active{
+    background-color: #CF5C3F;
+    color:white;
+}
+.mainheader img{
+    margin: 2% 0;
+    width: 10%;
+    height:auto;
+}
+.mainheader nav{
+    background-color: #666;
+    height:40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.mainheader ul{
+    list-style: none;
+    margin: 0 auto;
+}
+
+.mainheader ul li{
+    float: left;
+    display: inline;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+      border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    display: none;
+   
+    position: absolute;
+   
+}
+
+.dropdown-content:hover{
+   display:block;
+     background-color: grey;
+}
+.dropdown-content a{
+    text-decoration: none;
+    text-align: left;
+    width: 80px;
+    display: none;
+   
+}
+.dropdown:hover .dropdown-content{
+    background-color: grey;
+    display: block;    
+}
+
+
+.mainheader nav a:link, .mainheader nav a:visited{
+    padding: 10px 25px;
+    display:inline-block;
+    color:#FFF;
+    height:20px;
+}
+.mainheader nav a:hover, .mainheader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited
+.mainContent {
+background-color: #CF5C3F;
+text-shadow:none;
+
+}
+.mainheader nav ul li a{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+}
+
+#rightbody{
+    margin-top: 2%;
+    float:right;
+    width: 67.9%;
+    height: auto;
+    padding-left: 12px;
+    border-style: solid;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    
+}
+#leftbody{
+    margin-top: 2%;
+     border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    float:left;
+      width: 30%;
+    height: auto;
+    border-style: solid;
+}
+.mainFotter p{
+    width: 92%;
+    margin:  10px  auto;
+    color:white;
+}
+.mainFotter{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #666;
+    height: 40px;
+    float: left;
+    width: 100%;
+    margin: 2% 0;
+}
+.mainFotter a{
+    margin-left: 15px;
+}
+
+
