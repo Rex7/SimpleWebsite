@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="sameforall.css">
+    </head>
+    <body>
+      
+        <div class="ObjectDataSection">
+              <h2 >Classes & Objects</h2>
+            <p>
+                Objects in Java
+                Let us now look deep into what are objects. If we consider the real-world, we can find many objects around us, cars, dogs, humans, etc. All these objects have a state and a behavior.
+                If we consider a dog, then its state is - name, breed, color, and the behavior is - barking, wagging the tail, running.
+                If you compare the software object with a real-world object, they have very similar characteristics.
+                Software objects also have a state and a behavior. A software object's state is stored in fields and behavior is shown via methods.
+                So in software development, methods operate on the internal state of an object and the object-to-object communication 
+            </p>
+
+
+            <h3>Creating an Object</h3>
+            <ul>
+                <li><b>Declaration</b> − A variable declaration with a variable name with an object type.</li>
+                <li><b>Instantiation</b> − The 'new' keyword is used to create the object.</li>
+                <li><b>Initialization</b> − The 'new' keyword is followed by a call to a constructor. This call initializes the new object.</li>
+            </ul>
+            <div class="program">
+            <pre>
+           
+          public class dog {
+                void eat() {
+                   System.out.println("Dog is eating");
+                          }
+                    }
+  
+            </pre>
+            </div>
+            <h4>A class can contain any of the following variable types.</h4>
+            <ul>
+                <li><b>Local variables</b> − Variables defined inside methods, constructors or blocks are called local variables. The variable will be declared and initialized within the method and the variable will be destroyed when the method has completed.</li>
+                <li><b>Instance variables </b>− Instance variables are variables within a class but outside any method. These variables are initialized when the class is instantiated. Instance variables can be accessed from inside any method, constructor or blocks of that particular class</li>
+                <li><b>Class variables</b> − Class variables are variables declared within a class, outside any method, with the static keyword.</li>
+            </ul>
+        </div>
+    </body>
+</html>

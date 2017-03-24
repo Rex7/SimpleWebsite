@@ -10,7 +10,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="newcss">
-        
+
     </head>
     <body>
         <H3>Data Types in Java </H3>
@@ -18,9 +18,94 @@
         <ul>
             <li>Primitive data types</li>
             <li>Non-primitive data types</li>
-            
+
         </ul>
         <img src="char.jpg" width="500" height="200">
-        
+        <H3>Primitive data types</H3>
+        <ul>
+
+            <li>byte
+                <ul>
+                    <li>Byte data type is an 8-bit signed two's complement integer</li>
+                    <li>Maximum value is 127 (inclusive)(2^7 -1)</li>
+                    <li>Default value is 0</li>
+                    <li>Byte data type is used to save space in large arrays, mainly in place of integers, since a byte is four times smaller than an integer.</li>
+                    <li>Example: byte a = 100, byte b = -50</li>
+                </ul></li>
+            <li>short
+                <ul>
+                    <li>Short data type is a 16-bit signed two's complement integer</li>
+                    <li>Minimum value is -32,768 (-2^15)</li>
+                    <li>Maximum value is 32,767 (inclusive) (2^15 -1)</li>
+                    <li>Short data type can also be used to save memory as byte data type. A short is 2 times smaller than an integer</li>
+                    <li>Default value is 0.</li>
+                    <li>Example: short s = 10000, short r = -20000</li>
+                </ul>
+            </li>
+            <li>char
+                <ul>
+                    <li>char data type is a single 16-bit Unicode character</li>
+                    <li>Minimum value is '\u0000' (or 0)</li>
+                    <li>Maximum value is '\uffff' (or 65,535 inclusive)</li>
+                    <li>Char data type is used to store any character</li>
+                    <li>Example: char letter A = 'A'</li>
+                </ul>
+            </li>
+            <li>int
+                <ul>
+                    <li>Int data type is a 32-bit signed two's complement integer.</li>
+                    <li>Minimum value is - 2,147,483,648 (-2^31)</li>
+                    <li>Maximum value is 2,147,483,647(inclusive) (2^31 -1)</li>
+                    <li>Integer is generally used as the default data type for integral values unless there is a concern about memory</li>
+                    <li>The default value is 0</li>
+                    <li>Example: int a = 100000, int b = -200000</li>
+                </ul>
+            </li>
+            <li>long
+                <ul>
+                    <li>Long data type is a 64-bit signed two's complement integer</li>
+                    <li>Minimum value is -9,223,372,036,854,775,808(-2^63)</li>
+                    <li>Maximum value is 9,223,372,036,854,775,807 (inclusive)(2^63 -1)</li>
+                    <li>This type is used when a wider range than int is needed</li>
+                    <li>Default value is 0L</li>
+                    <li>Example: long a = 100000L, long b = -200000L</li>
+
+                </ul>
+
+            </li>
+            <li>float
+                <ul>
+                    <li>Float data type is a single-precision 32-bit IEEE 754 floating point</li>
+                    <li>Float is mainly used to save memory in large arrays of floating point numbers</li>
+                    <li>Default value is 0.0f</li>
+                    <li>Float data type is never used for precise values such as currency</li>
+                    <li>Example: float f1 = 234.5f</li>
+                </ul>
+            </li>
+            <li>double
+                <ul>
+                    <li>double data type is a double-precision 64-bit IEEE 754 floating point</li>
+                    <li>This data type is generally used as the default data type for decimal values, generally the default choice</li>
+                    <li>Double data type should never be used for precise values such as currency</li>
+                    <li>Default value is 0.0d</li>
+                    <li>Example: double d1 = 123.4</li>
+
+                </ul>
+            </li>
+        </ul>
+        <H3>Non-Primitive data types</H3>
+        <ul>
+            <li>
+                Reference Datatypes
+                <ul>
+                    <li>Reference variables are created using defined constructors of the classes. They are used to access objects. These variables are declared to be of a specific type that cannot be changed. For example, Employee, Puppy, etc.</li>
+                    <li>Class objects and various type of array variables come under reference datatype.</li>
+                    <li>Default value of any reference variable is null.</li>
+                    <li>A reference variable can be used to refer any object of the declared type or any compatible type.</li>
+                    <li>Example: Animal animal = new Animal("giraffe");</li>
+                </ul>
+            </li>
+        </ul>
+
     </body>
 </html>

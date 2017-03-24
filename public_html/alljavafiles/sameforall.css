@@ -1,0 +1,34 @@
+/*
+
+    Rex
+*/
+/* 
+    Created on : 23 Mar, 2017, 10:51:46 PM
+    Author     : Regis
+*/
+.ObjectDataSection{
+    border: solid royalblue;
+    padding: 25px 50px 75px;
+}
+body{
+    font-size: 87.5%;
+font-family: Arial,'lucida sans unicode';
+}
+.program{
+background-color: lightblue;
+  border: solid;
+}
+.reflection{
+       border: solid royalblue;
+    padding: 25px 50px 75px;
+}
+a{
+    text-decoration: none;
+}
+a:link,a:visited{
+    color:#CF5C3F;
+}
+a:hover,a:active{
+    background-color: #CF5C3F;
+    color:white;
+}

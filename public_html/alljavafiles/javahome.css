@@ -1,10 +1,10 @@
 
 body{
- color:#000305;
+    color:#000305;
 
-font-size: 87.5%;
-font-family: Arial,'lucida sans unicode';
-text-align: left;
+    font-size: 87.5%;
+    font-family: Arial,'lucida sans unicode';
+    text-align: left;
 
 }
 
@@ -46,25 +46,25 @@ a:hover,a:active{
 }
 
 .dropdown-content{
-      border-radius: 5px;
+    border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     display: none;
-   
+
     position: absolute;
-   
+
 }
 
 .dropdown-content:hover{
-   display:block;
-     background-color: grey;
+    display:block;
+    background-color: grey;
 }
 .dropdown-content a{
     text-decoration: none;
     text-align: left;
     width: 80px;
     display: none;
-   
+
 }
 .dropdown:hover .dropdown-content{
     background-color: grey;
@@ -81,39 +81,47 @@ a:hover,a:active{
 .mainheader nav a:hover, .mainheader nav a:active,
 .mainheader nav .active a:link, .mainheader nav .active a:visited
 .mainContent {
-background-color: #CF5C3F;
-text-shadow:none;
+    background-color: #CF5C3F;
+    text-shadow:none;
 
 }
 .mainheader nav ul li a{
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
+
+}
+.leftbody{
+    float: left;
+    border:solid;
+    width: 230px;
+    height: auto;
+}
+.leftbody a{
+    text-decoration: none;
+    
+}
+.leftbody  ul li{
+    display: block;
+    padding:15px;
+    border-bottom: 1px solid #ccc;
     
 }
 
-#rightbody{
-    margin-top: 2%;
-    float:right;
-    width: 67.9%;
-    height: auto;
-    padding-left: 12px;
-    border-style: solid;
-     border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
+
+
+
+
+
+
+.rightbody{
+    border: solid;
+    float: left;
+    width: 300px;
     
 }
-#leftbody{
-    margin-top: 2%;
-     border-radius: 5px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    float:left;
-      width: 30%;
-    height: auto;
-    border-style: solid;
-}
+
+
 .mainFotter p{
     width: 92%;
     margin:  10px  auto;

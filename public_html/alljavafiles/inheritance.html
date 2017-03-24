@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h3>Inheritance in Java</h3>
+        <p>Inheritance in java is a mechanism in which one object acquires all the properties and behaviors of parent object.
+The idea behind inheritance in java is that you can create new classes that are built upon existing classes. When you inherit from an existing class, you can reuse methods and fields of parent class, and you can add new methods and fields also.
+Inheritance represents the IS-A relationship, also known as parent-child relationship.
+</p>
+<h3>Why use inheritance in java</h3>
+<ul>
+    <li>For Method Overriding (so runtime polymorphism can be achieved</li>
+    <li>For Code Reusability.</li>
+</ul>
+<h3>Syntax of Java Inheritance</h3>
+<pre>
+1.	class Subclass-name extends Superclass-name  
+2.	{  
+3.	   //methods and fields  
+4.	}  
+</pre>
+<p><b>The extends</b> keyword indicates that you are making a new class that derives from an existing class. The meaning of "extends" is to increase the functionality.</p>
+<h3>
+    Example
+</h3>
+<pre>
+1.	class Employee{  
+2.	 float salary=40000;  
+3.	}  
+4.	class Programmer extends Employee{  
+5.	 int bonus=10000;  
+6.	 public static void main(String args[]){  
+7.	   Programmer p=new Programmer();  
+8.	   System.out.println("Programmer salary is:"+p.salary);  
+9.	   System.out.println("Bonus of Programmer is:"+p.bonus);  
+10.	}  
+11.	}  
+<h3>Output</h3>
+ Programmer salary is:40000.0
+ Bonus of programmer is:10000
+
+</pre>
+    </body>
+</html>
